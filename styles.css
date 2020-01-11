@@ -18,9 +18,11 @@ body {
    top: 0;
 }
 
-.navbar .logo {
+.navbar .logo img {
     color: white;
     margin-left: 1rem;
+    width: 40px;
+    height: 40px;
 }
 
 .navbar li {
@@ -73,9 +75,29 @@ body {
     font-family: sans-serif;
 }
 
-@media (min-width: 730px) {
+
+@media (min-width: 715px) {
+    body {
+        background-position: 0px 250px;
+    }
+    .main p{
+       
+    }
+    }
+    
+    @media (min-width: 915px) {
+        body {
+            background-position: 0px 180px;
+        }
+        .main p{
+           
+        }
+        }
+
+
+@media (min-width: 1280px) {
 body {
-    background-position: 0px 100px;
+    background-position: 0px 90px;
 }
 .main p{
     text-align: left;
